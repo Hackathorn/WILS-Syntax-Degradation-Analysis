@@ -5,23 +5,23 @@ This repro explores a research approach called Syntax Degradation Analysis (SDA)
 
 This work started with the [Kaggle/Google 5-Day Gen-AI Intensive Course (2025Q1)](https://www.google.com/url?q=https%3A%2F%2Frsvp.withgoogle.com%2Fevents%2Fgoogle-generative-ai-intensive_2025q1), 
 we explore the implications and extensions of a simple example presented in the Day-Two Explore codelab. 
-To launch the capstone version:
+To launch the capstone version:  
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](C:\Users\richa\Documents\WILS Repositories\WILS-Syntax-Degradation-Analysis\Effects-on-Semantic-Similarity-from-Syntax-Degrade-final.ipynb)
 
 
-That example used the familiar phrase:
-The quick brown fox jumps over the lazy dog. (1.00)
+That example used the familiar phrase:  
+- *The quick brown fox jumps over the lazy dog.* (1.00)
 
-Then, the syntax of that phrase was manually degraded step-by-step:
-The quick rbown fox jumps over the lazy dog. (0.98)  
-teh fast fox jumps over the slow woofer. (0.94)  
-a quick brown fox jmps over lazy dog. (0.89)  
-brown fox jumping over do\g* (0.84)  
-fox > dog (0.78)  
-The five boxing wizards jump quickly. (0.64)  
+Then, the syntax of that phrase was manually degraded step-by-step:  
+- *The quick rbown fox jumps over the lazy dog.* (0.98)  
+- *teh fast fox jumps over the slow woofer.* (0.94)  
+- *a quick brown fox jmps over lazy dog.* (0.89)  
+- *brown fox jumping over do\g* (0.84)  
+- *fox > dog* (0.78)  
+- *The five boxing wizards jump quickly.* (0.64)  
 
 Ending with complete randomness:  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. (0.47)
+- *Lorem ipsum dolor sit amet, consectetur adipiscing elit.* (0.47)
 
 A simple cosine similarity metric (values shown above) was used to measure the distance between the original phrase and each degraded version. Cosine similarity compares the angle between vectors: 1.0 means perfectly similar (aligned), while 0.0 means no similarity (orthogonal).
 
