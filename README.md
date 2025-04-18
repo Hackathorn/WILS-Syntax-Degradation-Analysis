@@ -6,7 +6,7 @@ This repro explores a research approach called Syntax Degradation Analysis (SDA)
 This work started with the [Kaggle/Google 5-Day Gen-AI Intensive Course (2025Q1)](https://www.google.com/url?q=https%3A%2F%2Frsvp.withgoogle.com%2Fevents%2Fgoogle-generative-ai-intensive_2025q1), 
 we explore the implications and extensions of a simple example presented in the Day-Two Explore codelab. 
 To launch the capstone version:  
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://https://colab.research.google.com/github.com/Hackathorn/WILS-Syntax-Degradation-Analysis/blob/main/Effects-on-Semantic-Similarity-from-Syntax-Degrade-final.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/Hackathorn/WILS-Syntax-Degradation-Analysis/blob/main/Effects-on-Semantic-Similarity-from-Syntax-Degrade-final.ipynb)
 
 That example used the familiar phrase:  
 - *The quick brown fox jumps over the lazy dog.* (1.00)
