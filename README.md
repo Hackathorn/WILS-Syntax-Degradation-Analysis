@@ -4,7 +4,7 @@
 This repro explores a research approach called Syntax Degradation Analysis (SDA), which degrades the syntax of LLM input text to observe its impact on semantic meaning. The change in meaning is measured by the similarity distance between the original text and its degraded version. The SDA approach has the potential to contribute meaningfully to research in Interpretable AI by revealing how language models encode and respond to degraded input.
 
 This work started with the [Kaggle/Google 5-Day Gen-AI Intensive Course (2025Q1)](https://www.google.com/url?q=https%3A%2F%2Frsvp.withgoogle.com%2Fevents%2Fgoogle-generative-ai-intensive_2025q1), 
-we explore the implications and extensions of a simple example presented in the Day-Two Explore codelab. 
+we explore the implications and extensions of a simple example presented in the Day-Two Explore codelab.  
 To launch the capstone version:  
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Hackathorn/WILS-Syntax-Degradation-Analysis/blob/main/Effects-on-Semantic-Similarity-from-Syntax-Degrade-final.ipynb)
 
